@@ -7,3 +7,45 @@
     <link rel="stylesheet"> href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     <link rel="stylesheet"> href="css/style.css" />
 </head>
+body{
+     font-family: Roboto, Raleway;
+     color: #2E2F42);
+     background: #FFF;
+    }
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.logo{
+      color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo-studio{
+    color: var(--IRIS, #4D5AE5);
+
+}
+.page-nav{
+     color: var(--NAVY-BLUE, #2E2F42);
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     letter-spacing: 0.32px;
+}
+h1{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
