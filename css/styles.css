@@ -12,6 +12,11 @@ body{
     height: 21px;
     font-weight: 700;
 }
+.header, nav, address {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+}
 #logoStudioMain {
     color:  #2E2F42;
 }
