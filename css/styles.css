@@ -1,37 +1,54 @@
-html,
-body{
-     font-family: "Helvetica Neue", "Roboto", "Verdana", sans-serif, modern-normalize;
-     color: #2a2a2a;
-     background: #fafafa;
-    }
+html, body{
+    font-family: "Helvetica Neue", "Roboto", "Verdana", sans-serif, "modern-normalize";
+    color: #2a2a2a;
+    background: #fafafa;
+}
 .logoWeb{
-    color:#4D5AE5;
-    font-family: "Raleway",sans-serif;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     width: 44px;
     height: 21px;
     font-weight: 700;
 }
-.header, nav, address {
+.header {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+}
+.nav {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+}
+.address { 
     width: 1440px;
     height: 72px;
     flex-shrink: 0;
 }
 #logoStudioMain {
-    color:  #2E2F42;
+    color: #2e2f42;
 }
 #logoStudioFooter {
-     color: #f4f4f4;
+    color: #f4f4f4;
 }
-
-.menuButtom {
-    color:#2E2F42;
+.menuButton {
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-
 }
 .mainInfo{
     color: #434455;
     font-size: 16px;
+}
+.h1 {
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; 
+letter-spacing: 1.12px;
 }
