@@ -99,6 +99,10 @@ letter-spacing: 0.02em;
 .features-list li {
     text-decoration: none;
 }
+.team-member li { 
+    background-color: #FFFFFF;
+}
+
 .section-heading {
     color: #2E2F42;
     font-size: 20px;
@@ -162,10 +166,10 @@ letter-spacing: 0.02em;
 
 }
 .project-description{
-    color: #2e2f42  ;
-    font-size: 20px;
+    color: #434455  ;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }    
 .site-footer{
