@@ -1,21 +1,21 @@
 body {
-    font-family: "Roboto";
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background: #FFF;
 }
 
 .logoweb {
     color: #4d5ae5;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
-    font-weight: 500;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logostudio-main {
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .logostudiofooter {
@@ -35,11 +35,12 @@ body {
 }
 
 .maininfo {
-    color: #434455;
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     font-style: normal;
 }
 
@@ -65,6 +66,7 @@ a:focus {
     text-align: center;
     letter-spacing: 0.02em;
 }
+.cursor:pointer
 
 .buttonBaner {
     background-color: #4D5AE5;
@@ -109,7 +111,7 @@ a:focus {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .team-member {
@@ -138,7 +140,7 @@ a:focus {
     font-weight: 500;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 
@@ -147,15 +149,15 @@ a:focus {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 
 .project-description {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .site-footer {
@@ -163,9 +165,10 @@ a:focus {
 }
 
 .footer-description {
+    font-family: "Raleway", sans-serif;
     color: #f4f4fd;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 700;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
