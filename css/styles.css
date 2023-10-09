@@ -81,9 +81,7 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.button_baner {
-    cursor: pointer;
-}
+
 .button_baner:hover {
     background-color: #404BBF;
 
